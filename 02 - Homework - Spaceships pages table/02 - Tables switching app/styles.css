@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;;
+    text-align: center;
+}
+
+#btnGenerate {
+    margin-top: 150px;
+}
+
+th, td{
+    border: 1px solid;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    min-width: 262px;
+    display: inline-block;
+
+}
+table{
+    border: 1px solid;
+    display: inline-block;
+}
+
+#buttonsCont{
+    display: flex;
+    justify-content: center;
+}
+
+#previousBtn, #nextBtn{
+    display: none;
+    margin-top: 20px;
+    padding: 5px;
+};
+
+#table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
