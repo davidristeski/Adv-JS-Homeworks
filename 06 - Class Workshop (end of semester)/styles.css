@@ -1,0 +1,57 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+#films, #people, #planets, #species, #starships, #vehicles {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+    border: solid;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#films:hover{
+    background-color: rgba(212, 179, 179, 0.574);
+    cursor: pointer;
+}
+
+#people:hover{
+    background-color: rgba(212, 179, 179, 0.574);
+    cursor: pointer;
+}
+#planets:hover{
+    background-color: rgba(212, 179, 179, 0.574);
+    cursor: pointer;
+}
+#species:hover{
+    background-color: rgba(212, 179, 179, 0.574);
+    cursor: pointer;
+}
+#starships:hover{
+    background-color: rgba(212, 179, 179, 0.574);
+    cursor: pointer;
+}
+#vehicles:hover{
+    background-color: rgba(212, 179, 179, 0.574);
+    cursor: pointer;
+}
+
+.filmsCards{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: solid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: left;
+
+}
